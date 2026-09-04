@@ -1,7 +1,12 @@
 import "./index.css";
+import { MovieList } from "./components/MovieList";
 
 function App() {
-  return <>Redux Toolkit</>;
+  return (
+    <>
+      <MovieList />
+    </>
+  );
 }
 
 export default App;
