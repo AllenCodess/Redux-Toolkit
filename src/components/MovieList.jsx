@@ -1,4 +1,4 @@
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 
 export const MovieList = () => {
   const movies = useSelector((state) => state.movies.movies);
