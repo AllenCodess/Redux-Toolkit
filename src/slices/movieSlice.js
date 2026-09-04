@@ -1,7 +1,10 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  movies: [],
+  movies: [
+    { id: 1, name: "Silo" },
+    { id: 2, name: "The Bear" },
+  ],
 };
 
 const movieSlice = createSlice({
